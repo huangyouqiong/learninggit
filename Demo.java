@@ -36,7 +36,7 @@ class SchoolSystem {
 
     public boolean addStudent(int stuType) {
         int tempValue;
-        if (stuType == 1) {
+        if (stuType == 1) {   //大班
             tempValue = this.getBig();
             if(tempValue == 0 ){
                 return false;
@@ -47,7 +47,7 @@ class SchoolSystem {
 
         }
 
-        if (stuType == 2) {
+        if (stuType == 2) {  //中班
             tempValue = this.getMedium();
             if(tempValue == 0 ){
                 return false;
@@ -58,7 +58,7 @@ class SchoolSystem {
 
         }
 
-        if (stuType == 3) {
+        if (stuType == 3) {    //小班
             tempValue = this.getSmall();
             if(tempValue == 0 ){
                 return false;
