@@ -1,4 +1,4 @@
-
+//幼儿园管理系统
 public class Demo {
 
 	public static void main(String[] args) {
